@@ -42,5 +42,8 @@
 	},
 	"files": [
 		"dist/**/*"
-	]
+	],
+	"publishConfig": {
+		"@sellers-industry:registry": "https://npm.pkg.github.com"
+	}
 }
