@@ -1,0 +1,2 @@
+/* eslint-disable no-useless-escape */
+export const avatar = "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAFVBMVEUEdf\/\/\/\/9Cl\/8jhv9iqP+gy\/+Buv8cbK6aAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAeUlEQVRIie3OMQqGMAyG4Y8m9hyleoCi8s8Fg7ODB+jg\/c9gLbiY\/wAKeYdA6EMoYFnWq+uvkVwCt5UVkGuUCqit\/vlOgkDTHiU7SC9ZAaawuFBcHj0nQINOtgbS7H09tykwYrkB1x8WBQrm3xqGWAEd8c8Fy7I+1gnJtA1b4vJfNAAAAABJRU5ErkJggg==";

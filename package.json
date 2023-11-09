@@ -1,0 +1,46 @@
+{
+	"name": "authical-core",
+	"version": "1.0.0",
+	"description": "",
+	"types": "dist/cjs/index.d.ts",
+	"main": "dist/cjs/index.js",
+	"scripts": {
+		"build": "npm run build:esm && npm run build:cjs",
+		"build:esm": "tsc -p ./tsconfig.esm.json",
+		"build:cjs": "tsc -p ./tsconfig.cjs.json",
+		"prepack": "npm run build",
+		"prepare": "npm run build",
+		"lint": "eslint . --ext .ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.7.3",
+		"@typescript-eslint/parser": "^6.7.3",
+		"eslint": "^8.50.0",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"ajv": "^8.12.0",
+		"ajv-formats": "^2.1.1",
+		"time-ago": "^0.2.1",
+		"time-ago-lite": "^1.0.3",
+		"ttl-localstorage": "^2.0.0"
+	},
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/esm/types/index.d.ts",
+				"default": "./dist/esm/index.js"
+			},
+			"require": {
+				"types": "./dist/cjs/types/index.d.ts",
+				"default": "./dist/cjs/index.js"
+			}
+		}
+	},
+	"files": [
+		"dist/**/*"
+	]
+}
