@@ -1,4 +1,4 @@
-![alt text](./banner.png)
+![alt text](https://raw.githubusercontent.com/sellersindustry/authical-core/main/banner.png)
 
 # Authical - Core
 This is the **Authical Core** for the Authical Authentication Framework, which consists of the client and server SDK (JavaScript/TypeScript) for interfacing
