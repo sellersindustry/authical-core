@@ -1,5 +1,5 @@
 {
-	"name": "authical-core",
+	"name": "@sellers-industry/authical-core",
 	"version": "1.0.0",
 	"description": "",
 	"types": "dist/cjs/index.d.ts",
@@ -10,7 +10,8 @@
 		"build:cjs": "tsc -p ./tsconfig.cjs.json",
 		"prepack": "npm run build",
 		"prepare": "npm run build",
-		"lint": "eslint . --ext .ts"
+		"lint": "eslint . --ext .ts",
+		"test": "echo nice"
 	},
 	"keywords": [],
 	"author": "",
