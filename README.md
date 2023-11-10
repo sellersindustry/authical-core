@@ -9,6 +9,9 @@ You might also want to check out...
 - **[Authical Backend Server](https://github.com/sellersindustry/authical-backend)** - Backend API Service for managing authenication
 - **[Authical UI Components](https://github.com/sellersindustry/authical-template-nextjs)** - Frontend UI components and NextJS template
 
+**Install using NPM** \
+`npm install @sellers-industry/authical-core`
+
 <br>
 
 ### What is Authical?
